@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.webersolutions.ratethatrecord.MainActivity"
+    android:id="@+id/btnLoveShack"
+    android:background="#ddeefc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitle"
+        android:id="@+id/txtTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35sp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="@string/emptyString"
+        android:id="@+id/btnSong1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtTitle"
+        android:background="@drawable/loveshack"
+        android:contentDescription="@string/imgLoveShack" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="@string/emptyString"
+        android:id="@+id/btnSong2"
+        android:layout_toRightOf="@+id/btnSong1"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/threesteps"
+        android:layout_alignParentRight="false"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/txtTitle"
+        android:contentDescription="@string/imgThreeSteps" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="@string/emptyString"
+        android:id="@+id/btnSong3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/staywithmetonight"
+        android:layout_below="@+id/btnSong1"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/imgStayWithMe" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="@string/emptyString"
+        android:id="@+id/btnSong4"
+        android:layout_alignTop="@+id/btnSong3"
+        android:layout_toRightOf="@+id/btnSong3"
+        android:layout_toEndOf="@+id/btnSong3"
+        android:background="@drawable/andshewas"
+        android:layout_marginLeft="20dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"
+        android:rating=".5"
+        android:stepSize=".5"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtRankingBtn"
+        android:id="@+id/btnShowRankings"
+        android:textSize="15sp"
+        android:background="#da155a"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnSong4"
+        android:layout_marginTop="5sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtRankings"
+        android:id="@+id/txtRankings"
+        android:layout_alignTop="@+id/btnSong1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:typeface="normal" />
+
+</RelativeLayout>

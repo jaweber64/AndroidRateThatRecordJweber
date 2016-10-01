@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Rate That Record</string>
+    <string name="txtSplash">Favorite Songs</string>
+    <string name="txtTitle">SONGS</string>
+    <string name="imgLoveShack">B52\'s Love Shack image</string>
+    <string name="imgThreeSteps">Lynrd Skynrd Gimme 3 Steps image</string>
+    <string name="emptyString"></string>
+    <string name="imgStayWithMe">Jeffery Osborne Stay With Me Tonight image</string>
+    <string name="imgAndSheWas">Talking Heads And She Was image</string>
+    <string name="txtRankingBtn">Show Rankings</string>
+    <string name="txtRankings">No Rankings</string>
+</resources>
